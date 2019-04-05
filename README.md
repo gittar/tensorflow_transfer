@@ -2,8 +2,8 @@
 
 This is a simple experiment with copied code to check my local installation of tensorflow 2.0 alpha running on an Nvidia GTX 1060 (6MB).  
 Two things are illustrated:
-* a pretrained network can be adapted to a new task very quickly by freezing its weighs and onls replacing and traing the output layers.
-* the obtained accuracy can be substantially increased by retraining a fraction of the layers with a very small learning rate.
+* a pretrained network can (in this case) be adapted to a new task very quickly by freezing its weights and only replacing and training the output layers.
+* the obtained accuracy is (in this case) substantially increased by retraining a fraction of the layers with a very small learning rate.
 
 Total training time was 11 min
 ## task
