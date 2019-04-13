@@ -171,7 +171,7 @@ plt.ylabel('Cross Entropy')
 plt.ylim([0,max(plt.ylim())])
 plt.title('Training and Validation Loss')
 #plt.show()
-plt.savefig('foo.png')
+plt.savefig('train1.png')
 
 #
 # Un-freeze the top layers of the modele
@@ -238,6 +238,6 @@ plt.plot([epochs-1,epochs-1], plt.ylim(), label='Start Fine Tuning')
 plt.legend(loc='upper right')
 plt.title('Training and Validation Loss')
 #plt.show()
-plt.savefig('foo2.png')
+plt.savefig('train2.png')
 
 
