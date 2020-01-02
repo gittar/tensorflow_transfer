@@ -1,6 +1,6 @@
 # Transfer Learning with Tensorflow 2.0 Using Pretrained ConvNets
 
-This is a simple experiment with copied code to check my local installation of tensorflow 2.0 alpha running on an Nvidia GTX 1060 (6MB).  
+This is a simple experiment with copied code to check my local installation of tensorflow 2.0 alpha running on an Nvidia GTX 1060 (6GB).  
 Two things are illustrated:
 * a pretrained network can (in this case) be adapted to a new task very quickly by freezing its weights and only replacing and training the output layers.
 * the obtained accuracy is (in this case) substantially increased by retraining a fraction of the layers with a very small learning rate.
@@ -42,13 +42,13 @@ pretrained with imagenet
 
 ## transfer learning with mobilenet frozen and only top layer trained
 Validation accuracy: 94.86%  
-Training time on GTX 1600 (6MB): 6:16 min
+Training time on GTX 1060 (6GB): 6:16 min
 ![alt txt](img/train1.png)
 
 ## additional re-training of a few mobilenet layers
 Of 155 layers 55 were retrained with a very small learning rate.  
 Validation accuracy: 97.18%  
-Training time on GTX 1600 (6MB): 6:48 min   
+Training time on GTX 1060 (6GB): 6:48 min   
 Total training time: 11:04 min
 ![alt txt](img/train2.png)
 
